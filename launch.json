@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "backend",
+      "runtimeExecutable": "C:\\Users\\USER\\OneDrive\\Desktop\\AI prescription\\backend\\venv\\Scripts\\python.exe",
+      "runtimeArgs": ["-m", "uvicorn", "main:app", "--port", "8000", "--app-dir", "C:\\Users\\USER\\OneDrive\\Desktop\\AI prescription\\backend"],
+      "port": 8000
+    },
+    {
+      "name": "frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "C:\\Users\\USER\\OneDrive\\Desktop\\AI prescription\\frontend", "run", "dev"],
+      "port": 5173
+    }
+  ]
+}
